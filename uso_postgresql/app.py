@@ -12,6 +12,7 @@ rosa = Flor_dto("Rosa blanca", "Blanca", "Rosa;L", "Rosaceae")
 clavel = Flor_dto("Clavel", "Rosa eléctrico", "Dianthus", "Sweet William")
 lista_flores = [orquidea, rosa, clavel]
 
+
 @app.route("/traer_saludo", methods=['GET'])
 def inicio():
     hola_diccionario = {
